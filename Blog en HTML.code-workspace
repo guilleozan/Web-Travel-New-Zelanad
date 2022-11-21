@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Blog en HTML",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Blog en HTML"
+	}
+}

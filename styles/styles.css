@@ -1,0 +1,412 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+html {
+	scroll-behavior: smooth;
+}
+header, footer, section{
+	width:auto;
+	margin:0px;
+
+}
+.logo{
+	display: flex;
+	justify-content: flex-end;
+	align-content: stretch;
+	align-content: center;
+
+	
+}
+
+
+/* Barra de navegacion */
+
+.cont-nav{
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	flex-flow: row wrap;
+	font-family: 'Monoton', cursive;
+	background-color: black;
+}
+
+.btns {
+	margin: 0px;;
+	padding: 0;
+	margin-right: 10px;
+	
+	}
+.btns ul{
+	list-style: none;
+
+}
+.btns ul li {
+	display: inline-block;
+	
+}
+.btns ul li a {
+	display: block;
+	color:white;
+	text-decoration: none;
+	padding: 30px;	
+}
+.btns ul li :hover {
+	background: #A9A9A9 ;
+	border-radius: 10px ; 
+	transform: scale(0.8);
+	transition:all 0.2s ease 0.3s;
+	border: solid black 2px;
+	
+}
+
+/* Fin de barra de navegacion */
+
+
+#video{
+	width: 90%;
+	margin-left:5%;
+	margin-right: 5%;
+	height: 60%;
+	background-repeat: repeat;
+	object-fit: cover;
+}
+
+#menu{
+	background-color: white;
+	font-family: 'Monoton'
+	
+}
+@keyframes swing {
+	
+	
+	0% {transform: translateX(0%);}
+	100%{transform: translateX(100%);}
+
+
+	
+}
+
+.container{
+	
+	width:80%;
+}
+
+										/* About */
+
+.bodyAbout{
+background-color: black;
+}
+
+.about{
+	display: flex;
+	margin:10%;
+}
+.about div{
+	margin:10px;
+	}
+.text-about{
+	color:white
+}
+.chch{
+	display: flex;
+	box-sizing: border-box;
+
+	padding:10px;
+	
+	
+}
+h3{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.novedades{
+
+    width:80%;
+	margin:auto;
+	padding:20px;
+    overflow: hidden; 
+	font-family: 'Gloria Hallelujah', cursive;
+
+	
+}
+.novedades h4{
+	text-align: center;
+	padding: 15px;
+}
+.imagen2{
+	width: 250px;
+	height: 300px;
+	object-fit: cover;
+	box-sizing: border-box;
+	
+	
+}
+.novedades:nth-child(even) img, button{
+    float: right;
+    margin: 2px;
+}
+
+.novedades:nth-child(odd)  img, button{
+    float: left;
+    margin: 2px;
+}
+
+
+
+										/* END  About */
+
+
+						/* Tour	 */
+
+
+.contenedor-actividad{
+display: flex;	
+justify-content: space-evenly;
+flex-flow: wrap row;
+margin: 10px 10px;
+
+}
+.contenedor-actividad :hover.actividad{ 
+	transform: scale(.97);
+}
+.contenedor-actividad :hover.boton{ 
+	transform: scale(1.05);
+
+}
+.actividad{
+	background-color: white;
+	padding: 10PX;
+	margin: 10px 0px;
+
+
+
+}
+
+.imagen{
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+	box-sizing: border-box;
+	border-radius: 5px;
+	
+
+}
+
+.texto-actividad{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+}
+
+.boton{
+	margin-left:33px;
+	padding: 5px;
+	letter-spacing: 2px;
+	font-family:'Gloria Hallelujah', cursive; 
+	border: none;
+	opacity: .7;
+}
+.boton a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.tourFather{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.tourFather div{
+	flex-flow: wrap-reverse;	
+
+}
+
+
+	
+.tourLi ul{
+	padding: 20px;
+
+}
+
+.tourLi ul li{
+	display: flex;
+	padding:10px;
+	
+}
+.tourLi ul li a{
+	text-decoration: none;
+	font-size:large;
+	color: black;
+	
+}
+.tourLi ul li  :hover{
+	transition: all .3s;
+	text-decoration: underline;
+	transform: scale(1.3);
+
+
+}
+
+		/* End Tour */
+
+.row-col-lg-2{
+	margin: 20%;
+}
+
+
+.galeria{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	margin: 5px 5px ;
+	
+}
+.galeria img{
+	margin: 5px;
+
+}
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+				/*Footer	 */
+
+
+.contenedor-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: black;
+
+	
+
+}
+.contenedor-footer div{
+
+	margin:20px;
+	padding: 15px;
+	font-family: 'Monoton', cursive;
+	
+}
+.contenedor-footer div a{
+	color:white;
+	text-decoration: none;
+}
+
+.contenedor-footer div :hover{
+	background: #A9A9A9 ;
+	border-radius: 10px ; 
+	padding: 15px;
+	transform: scale(0.8);
+	transition:all 0.2s ease 0.3s;
+	border: solid black 2px;
+	color: black;
+	text-decoration: none;
+	
+}
+
+
+
+
+	
+
+
+.derechos{
+	display: flex;
+	justify-content: center;
+	background-color:black;
+	width: 100%;
+	align-content: center;
+
+	color: white;
+}
+
+
+
+
+
+
+/* North and South island */
+.North{
+	display: flex;
+	padding:20px;
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+.clas1{
+	background-color: yellow;
+	display: flex;
+	justify-content: space-around;
+}
+.clas2{
+	background-color:blue;
+
+}
+.clas3{
+	background-color: green;
+}
+
+
+
+
+h1{
+	font-family:'Monoton', cursive;
+	text-align:center;
+}
+
+
+
+.privacy{
+	font-size:medium;
+	text-align: center;
+	margin:10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media resolucion para pantallas entre 0 y 500px*/
+@media screen and (max-width:600px) {
+	
+}
